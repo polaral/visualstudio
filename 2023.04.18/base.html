@@ -1,0 +1,17 @@
+<html>
+<body>
+    <canvas id="canvas" height="20" width="20" style="border: 1px solid #CCC;
+    height: 500px; width: 500px; image-rendering: pixelated;"></canvas>  
+</body>
+<script>
+    var canvas = document.getElementById('canvas');
+    var context = canvas.getContext('2d');
+
+    context.fillStyle = 'black'; // define a cor que vai ser utilizada para desenhar no canvas
+    context.clearRect(0,0,20,20) // limpa o canvas
+    context.fillRect(0,1,1,1); // desenha um retangulo/quadrado no canvas
+
+    
+</script>
+
+</html>
